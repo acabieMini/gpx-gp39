@@ -54,7 +54,7 @@ export default {
         return { color: 0, sym: 1 };
       }
       if (sym == "Symbol-Exclamation-Magenta") {
-        return { color: 5, sym: 2 };
+        return { color: 4, sym: 2 };
       }
       if (sym == "Sea-DepthB-Yellowk") {
         return { color: 2, sym: 2 };
