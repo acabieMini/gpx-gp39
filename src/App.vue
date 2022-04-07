@@ -53,6 +53,15 @@ export default {
       if (sym == "Symbol-Pin-Black") {
         return { color: 0, sym: 1 };
       }
+      if (sym == "triangle") {
+        return { color: 0, sym: 1 };
+      }
+      if (sym == "square") {
+        return { color: 1, sym: 2 };
+      }
+      if (sym == "circle") {
+        return { color: 4, sym: 0 };
+      }
       if (sym == "Symbol-Exclamation-Magenta") {
         return { color: 5, sym: 2 };
       }
